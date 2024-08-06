@@ -1,0 +1,15 @@
+whenever I ask you to create, or if you need an image, follow these steps
+DO NOT mark TODO.md as done!
+show in the chat confirmation message like "Ok. I will create this image: <filename> in  <aspect_ratio>"
+then create a great image prompt for midjourney - do not show it in the chat
+decide on a suitable filename with .png extension
+supported aspect ratios: 1:1, 16:9, 21:9, 2:3, 3:2, 4:5, 5:4, 9:16, 9:21.
+decide on best aspect ratio
+append an outstanding task to the `TODO.md` file like this: `- [ ] @image <filename>: <prompt> <aspect_ratio>`
+NOT like this: `- [x] @image <filename>: <prompt> <aspect_ratio>`
+only append the prompt to the TODO.md file task - nowhere else!
+here are some examples of great image prompts for flux:
+- a photo of a beautiful street in Freiburg with a tram passing by and people walking about and riding bikes
+- photograph of a black board in an old classroom. On the black board in chalk are the words “Lets make some really pretty stuff together” with a red chalk heart after the words. Sunlight is streaming in from the window
+- Typography, futuristic fine lasers tracing, futuristic japan rural nature touring and ceramics, steven meisel, kaws, rolf armstrong, mondrian, kandinsky, perfect geometry abstract acrylic, octane hyperrealism photorealistic airbrush collage painting, dark monochrome, fluorescent colors, minimalist rule of thirds, eighties eros
+- photograph of an elderly couple walking hand in hand on the beach
