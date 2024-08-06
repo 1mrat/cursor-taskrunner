@@ -89,3 +89,10 @@ Glad you ask - [here it is](https://github.com/1mrat/cursor-taskrunner).
 ![90s manga code reveal](examples/image/90s_manga_code_reveal.png)
 
 Happy creating!
+
+## Knowing issues
+
+Couple of issues which may be to do with Composer still being in beta:
+
+* Cursor gets lazy sometimes especially with larger contexts, refusing to write to files
+* Todos usually get added but it can mark them as complete before the task runner gets a chance to run
