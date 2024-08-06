@@ -15,7 +15,7 @@ Cursor does not support text to image generation, but with this task runner it c
 Before you begin, ensure you have the following:
 
 - Python installed on your system
-- An API token from Replicate
+- An API token from Replicate (NOT FREE)
 - The necessary Python packages (`replicate`, `requests`, `colorama`)
 - Replicate API token in your env as `REPLICATE_API_TOKEN`
 
@@ -38,9 +38,9 @@ When a new task is added, the script will automatically generate the image using
 
 This will take a bit of trial and error, but with the right rules, cursor will add a TODO each time it wants to create an image.
 
-![Freiburg street with Cursor rules tram](examples/image/freiburg_cursor_rules_tram.png)
+[Here are the rules I used](.cursorrules)
 
-In this image, you can see a beautiful street in Freiburg with a tram passing by. The tram displays "Cursor Rules" on its side, symbolizing how Cursor's rules guide the AI through tasks. People are walking and cycling, representing the dynamic nature of working with Cursor and its task runner.
+![Freiburg street with Cursor rules tram](examples/image/freiburg_cursor_rules_tram.png)
 
 ## 3. Create the image task file
 
@@ -48,15 +48,15 @@ Create a new file in the `tasks/image` directory that contains the instructions 
 
 ![Anime girl summoning image task](examples/image/anime_girl_summoning_image_task.png)
 
-In this 90s anime-style image, you can see a determined young girl with big expressive eyes, sitting at a retro computer. She's in the process of summoning an image task, with the "@image" command glowing on her screen. Magical sparkles and swirls surround her, representing the power of the image task summoning process.
-
-I use the same prompt format as Claude here:
+I originally used the same prompt format as Claude here:
 
 ```
 <task: {task_name}>
 {task instructions}
 </task>
 ```
+
+But it seemed plain text rules worked better.
 
 You can see the file [here](tasks/image)
 
@@ -84,7 +84,7 @@ Or even create a landing page
 
 ## Wheres the code?
 
-Glad you ask - [here it is](https://github.com/imrat/cursor-taskrunner).
+Glad you ask - [here it is](https://github.com/1mrat/cursor-taskrunner).
 
 ![90s manga code reveal](examples/image/90s_manga_code_reveal.png)
 
